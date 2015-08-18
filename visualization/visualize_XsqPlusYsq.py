@@ -19,7 +19,7 @@ ax.plot_surface(X, Y, Z, rstride=1, cstride=1, color='grey',
 
 Z2 = 5*np.arange(0, 10, .25)
 
-#We plot a plane perpendicular to the z-axis. So, x is always 2.
+#We plot a plane perpendicular to the x-axis. So, x is always 2.
 ax.plot_surface(2, Y ,Z2, color='green', linewidth=0, zorder=1, alpha=0.8)
 
 #Now plot the quadratic curve that defines the intersection of the paraboloid and the plane.
