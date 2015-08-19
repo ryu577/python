@@ -24,7 +24,7 @@ ax.plot_surface(Y, 2-Y ,Z2, color='green', linewidth=0, zorder=1, alpha=0.8)
 
 #Now plot the quadratic curve that defines the intersection of the paraboloid and the plane.
 y = np.arange(-5, 5, 0.25)
-ax.plot(y, y, y*(2-y) , lw=2, color='green', zorder=2)
+ax.plot(y, (2-y), y*(2-y) , lw=2, color='green', zorder=2)
 
 #Plot the z-axis
 z = np.arange(-25, 25, 0.25)
